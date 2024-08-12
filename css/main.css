@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* .container{
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    color: white;
+    /* margin: 100px; */
+    margin-left: 380px;
+    margin-top: -40px !important;
+    animation: aylanish 2s linear infinite;
+}
+
+.loader {
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.loader span {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    animation: aylanish 2s linear infinite;
+}
+
+.dot2 {
+    animation-delay: .1s  !important ;
+
+}
+
+.dot3 {
+    animation-delay: .2s !important ;
+}
+
+.dot4 {
+    animation-delay: .3s !important ;
+}
+
+.dot5 {
+    animation-delay: .4s !important ; 
+}
+
+.dot6 {
+    animation-delay: .5s !important ;
+}
+
+.dot7 {
+    animation-delay: .6s !important ;
+}
+
+.dot8 {
+    animation-delay: .7s !important ;
+}
+
+.dot9 {
+    animation-delay: .8s !important ;
+}
+
+
+
+
+@keyframes aylanishi {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes aylanish {
+    0% {
+        transform: translateY(0px);
+    }
+
+    25% {
+        transform: translateY(-60px);
+    }
+
+    75% {
+        transform: translateY(60px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
